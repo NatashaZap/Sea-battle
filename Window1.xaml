@@ -1,0 +1,169 @@
+﻿<Window x:Class="Морской_бой.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Морской_бой"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="A11" Grid.Column="1" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A21" Grid.Column="2" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A31" Grid.Column="3" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A41" Grid.Column="4" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A51" Grid.Column="5" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A61" Grid.Column="6" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A71" Grid.Column="7" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A81" Grid.Column="8" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A91" Grid.Column="9" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="A101" Grid.Column="10" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Б1" Grid.Column="1" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б21" Grid.Column="2" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б31" Grid.Column="3" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б41" Grid.Column="4" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б51" Grid.Column="5" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б61" Grid.Column="6" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б71" Grid.Column="7" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б81" Grid.Column="8" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б91" Grid.Column="9" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Б101" Grid.Column="10" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="В11" Grid.Column="1" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В21" Grid.Column="2" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В31" Grid.Column="3" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В41" Grid.Column="4" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В51" Grid.Column="5" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В61" Grid.Column="6" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В71" Grid.Column="7" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В81" Grid.Column="8" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В91" Grid.Column="9" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="В101" Grid.Column="10" Grid.Row="3" Background="White"></Button>
+        <Button x:Name="Г1" Grid.Column="1" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г21" Grid.Column="2" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г31" Grid.Column="3" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г41" Grid.Column="4" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г51" Grid.Column="5" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г61" Grid.Column="6" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г71" Grid.Column="7" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г81" Grid.Column="8" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г91" Grid.Column="9" Grid.Row="4" Background="White"></Button>
+        <Button x:Name="Г101" Grid.Column="10" Grid.Row="4" Background="White"></Button>
+
+        <Button x:Name="Д11" Grid.Column="1" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д21" Grid.Column="2" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д31" Grid.Column="3" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д41" Grid.Column="4" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д51" Grid.Column="5" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д61" Grid.Column="6" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д71" Grid.Column="7" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д81" Grid.Column="8" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д91" Grid.Column="9" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Д101" Grid.Column="10" Grid.Row="5" Background="White"></Button>
+        <Button x:Name="Е1" Grid.Column="1" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е21" Grid.Column="2" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е31" Grid.Column="3" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е41" Grid.Column="4" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е51" Grid.Column="5" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е61" Grid.Column="6" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е71" Grid.Column="7" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е81" Grid.Column="8" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е91" Grid.Column="9" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Е101" Grid.Column="10" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="Ж11" Grid.Column="1" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж21" Grid.Column="2" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж31" Grid.Column="3" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж41" Grid.Column="4" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж51" Grid.Column="5" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж61" Grid.Column="6" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж71" Grid.Column="7" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж81" Grid.Column="8" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж91" Grid.Column="9" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="Ж101" Grid.Column="10" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="З1" Grid.Column="1" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З21" Grid.Column="2" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З31" Grid.Column="3" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З41" Grid.Column="4" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З51" Grid.Column="5" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З61" Grid.Column="6" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З71" Grid.Column="7" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З81" Grid.Column="8" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З91" Grid.Column="9" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="З101" Grid.Column="10" Grid.Row="2" Background="White"></Button>
+
+        <Button x:Name="И11" Grid.Column="1" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И21" Grid.Column="2" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И31" Grid.Column="3" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И41" Grid.Column="4" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И51" Grid.Column="5" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И61" Grid.Column="6" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И71" Grid.Column="7" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И81" Grid.Column="8" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И91" Grid.Column="9" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="И101" Grid.Column="10" Grid.Row="1" Background="White"></Button>
+        <Button x:Name="К1" Grid.Column="1" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К21" Grid.Column="2" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К31" Grid.Column="3" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К41" Grid.Column="4" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К51" Grid.Column="5" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К61" Grid.Column="6" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К71" Grid.Column="7" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К81" Grid.Column="8" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К91" Grid.Column="9" Grid.Row="2" Background="White"></Button>
+        <Button x:Name="К101" Grid.Column="10" Grid.Row="2" Background="White"></Button>
+
+
+    </Grid>
+</Window>
