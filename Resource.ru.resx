@@ -117,11 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="A" xml:space="preserve">
+    <value>А</value>
+  </data>
+  <data name="B" xml:space="preserve">
+    <value>Б</value>
+  </data>
+  <data name="C" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="D" xml:space="preserve">
+    <value>Г</value>
+  </data>
+  <data name="E" xml:space="preserve">
+    <value>Д</value>
+  </data>
   <data name="Exit" xml:space="preserve">
     <value>Выход</value>
   </data>
+  <data name="F" xml:space="preserve">
+    <value>Е</value>
+  </data>
+  <data name="G" xml:space="preserve">
+    <value>Ж</value>
+  </data>
+  <data name="H" xml:space="preserve">
+    <value>З</value>
+  </data>
+  <data name="I" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="J" xml:space="preserve">
+    <value>К</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Морской бой</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Начать игру</value>
   </data>
   <data name="Play" xml:space="preserve">
     <value>Играть</value>

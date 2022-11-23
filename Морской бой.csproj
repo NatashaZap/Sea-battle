@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Icons\Луна.png" />
+    <None Remove="Icons\Солнце.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\Луна.png" />
+    <Resource Include="Icons\Солнце.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Resource - Копировать.Designer.cs">
       <DependentUpon>Resource.resx</DependentUpon>
       <DesignTime>True</DesignTime>

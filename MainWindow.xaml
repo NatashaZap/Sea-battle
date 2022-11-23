@@ -63,10 +63,25 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Label x:Name="Name" Grid.Row="2" Grid.Column="2" Grid.RowSpan="4" Grid.ColumnSpan="20" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" ></Label>
-        <Button x:Name="Play" Grid.Row="9" Grid.Column="7" Grid.RowSpan="2" Grid.ColumnSpan="10"></Button>
-        <Button x:Name="Settings" Grid.Row="12" Grid.Column="7" Grid.RowSpan="2" Grid.ColumnSpan="10"></Button>
-        <Button x:Name="Exit" Grid.Row="15" Grid.Column="7" Grid.RowSpan="2" Grid.ColumnSpan="10"></Button>
-        <Button Grid.Row="21" Grid.Column="21" FontSize="14" Click="Lang_Ru_Click">Ru</Button>
-        <Button Grid.Row="21" Grid.Column="22" FontSize="14" Click="Lang_En_Click">En</Button>
+        <Button x:Name="Play" Grid.Row="9" Grid.Column="7" Grid.RowSpan="2" Grid.ColumnSpan="10" Click="Play_Click"/>
+        <Button x:Name="Settings" Grid.Row="12" Grid.Column="7" Grid.RowSpan="2" Grid.ColumnSpan="10"/>
+        <Button x:Name="Exit" Grid.Row="15" Grid.Column="7" Grid.RowSpan="2" Grid.ColumnSpan="10"/>
+        <Button Grid.Row="20" Grid.Column="19"  Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="14" Click="Lang_Ru_Click">Ru</Button>
+        <Button Grid.Row="20" Grid.Column="21"  Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="14" Click="Lang_En_Click">En</Button>
+        <Button x:Name="Light" Grid.Row="20" Grid.Column="1"  Grid.ColumnSpan="2" Grid.RowSpan="2" Click="ThemeChange">
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <Image Source="/Icons/Солнце.png" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+        <Button x:Name="Dark" Grid.Row="20" Grid.Column="3"  Grid.ColumnSpan="2" Grid.RowSpan="2" Click="ThemeChange">
+            <Button.ContentTemplate>
+                <DataTemplate>
+                    <Image Source="/Icons/Луна.png" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+                </DataTemplate>
+            </Button.ContentTemplate>
+        </Button>
+        
     </Grid>
 </Window>
